@@ -1,0 +1,22 @@
+{
+    "name": "ryok/laravel-client",
+    "license": "MIT",
+    "authors": [{
+        "name": "Lucas Borges",
+        "email": "ryok21@gmail.com"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Ryok\\Client\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ryok\\Client\\Providers\\ClientServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
